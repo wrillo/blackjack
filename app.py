@@ -1,3 +1,8 @@
+# William Rillo
+# Mahmoud Shalash
+# Gabriel Terry
+# Hisham Zannoun
+
 import sys
 import math
 import pydealer
@@ -249,6 +254,6 @@ class BlackjackWindow(QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    window = BlackjackWindow(num_players=3)
+    window = BlackjackWindow(num_players=4)
     window.show()
     sys.exit(app.exec())
